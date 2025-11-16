@@ -2,50 +2,40 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8" />
-  <title>Trang bí mật của QR</title>
+  <title>Kính mời ☕</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <style>
-    body {
-      font-family: system-ui, sans-serif;
-      background: #0f172a;
-      color: #e5e7eb;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      text-align: center;
-    }
-    h1 {
-      font-size: 28px;
-      margin-bottom: 12px;
-    }
-    p {
-      max-width: 400px;
-      line-height: 1.6;
-      margin-bottom: 20px;
-    }
-    button {
-      padding: 10px 20px;
-      border-radius: 999px;
-      border: none;
-      cursor: pointer;
-      font-size: 14px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <h1>Xin chào, bạn vừa quét QR 🎉</h1>
-  <p>
-    Đây là trang web mà tui có thể chỉnh sửa bất kỳ lúc nào bằng
-    HTML, CSS, JavaScript. Link thì vẫn giữ nguyên.
-  </p>
-  <button onclick="alert('Bạn vừa bấm nút của tui 😆')">
-    Bấm thử xem
-  </button>
+  <div class="page">
+    <div class="card">
+      <div class="steam">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="cup">☕</div>
 
-  <script>
-    // sau này bạn muốn làm hiệu ứng, game, gì đó thì code thêm ở đây
-  </script>
+      <h1>Kính mời bạn một tách cà phê</h1>
+      <p class="subtitle">
+        Cảm ơn vì bạn đã quét mã QR.  
+        Đây là “góc nhỏ” của tui trên Internet, nơi tui gửi lời mời và những điều dễ thương.
+      </p>
+
+      <div class="info">
+        <p><strong>Thời gian:</strong> ………</p>
+        <p><strong>Địa điểm:</strong> ………</p>
+        <p><strong>Ghi chú:</strong> Bạn có thể sửa toàn bộ nội dung này trong <code>index.html</code>.</p>
+      </div>
+
+      <div class="actions">
+        <button id="rsvp-btn">Bấm vô đây nè 😆</button>
+        <button id="contact-btn" class="ghost-btn">Liên hệ với tui</button>
+      </div>
+
+      <p class="footer-note">
+        Bạn muốn web khác đi ư? Chỉ cần sửa file HTML/CSS/JS và push lại là xong.
+      </p>
+    </div>
+  </div>
 </body>
 </html>
