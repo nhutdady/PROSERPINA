@@ -2,40 +2,230 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8" />
-  <title>Kính mời ☕</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minh Nhựt | Quiet Mind</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500&family=WindSong:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="page">
-    <div class="card">
-      <div class="steam">
-        <span></span><span></span><span></span>
-      </div>
-      <div class="cup">☕</div>
+  <aside class="sidebar">
+    <img class="avatar" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=300&auto=format&fit=crop" alt="avatar">
 
-      <h1>Kính mời bạn một tách cà phê</h1>
-      <p class="subtitle">
-        Cảm ơn vì bạn đã quét mã QR.  
-        Đây là “góc nhỏ” của tui trên Internet, nơi tui gửi lời mời và những điều dễ thương.
-      </p>
+    <h2>Minh Nhựt</h2>
+    <div class="leaf">❧</div>
 
-      <div class="info">
-        <p><strong>Thời gian:</strong> ………</p>
-        <p><strong>Địa điểm:</strong> ………</p>
-        <p><strong>Ghi chú:</strong> Bạn có thể sửa toàn bộ nội dung này trong <code>index.html</code>.</p>
-      </div>
+    <nav>
+      <a href="#home">⌂ Home</a>
+      <a href="#about">♧ About</a>
+      <a href="#journey">♤ Journey</a>
+      <a href="#love">♡ Things I Love</a>
+      <a href="#dreams">♫ Dreams</a>
+      <a href="#gallery">▧ Gallery</a>
+      <a href="#contact">✉ Contact</a>
+    </nav>
 
-      <div class="actions">
-        <button id="rsvp-btn">Bấm vô đây nè 😆</button>
-        <button id="contact-btn" class="ghost-btn">Liên hệ với tui</button>
-      </div>
+    <div class="social">f &nbsp; ◎ &nbsp; ◉ &nbsp; ✉</div>
 
-      <p class="footer-note">
-        Bạn muốn web khác đi ư? Chỉ cần sửa file HTML/CSS/JS và push lại là xong.
-      </p>
-    </div>
+    <p class="copy">
+      © 2025<br>
+      Made with ♡
+    </p>
+  </aside>
+
+  <main>
+  
+<section id="home" class="hero">
+
+  <button class="music" id="musicBtn">
+    ▶ Nghe nhạc<br>
+    <span>Lofi • noi nay co anh</span>
+  </button>
+<audio id="audio" src="noi-nay-co-anh.mp3"></audio>
+  <!-- LANGUAGE SWITCH -->
+<div class="lang-switch" id="langSwitch">
+  <button id="viBtn" class="active-lang">VN</button>
+  <button id="enBtn">EN</button>
+  <span class="lang-slider"></span>
+</div>
+
+  <div class="hero-content">
+    <h1>Minh Nhựt</h1>
+    <p>quiet mind, curious soul 🌿</p>
   </div>
+
+  <a class="scroll" href="#about">⌄</a>
+
+</section>
+
+
+<section id="about" class="about section">
+  <div>
+
+    <span class="label">ABOUT ME 🌿</span>
+
+    <h2>Một chút về tui</h2>
+
+    <p>
+      Tui thích những điều nhẹ nhàng: mùi cafe, trời sau cơn mưa,
+      những góc nhỏ yên tĩnh và cảm giác được khám phá điều mới.
+    </p>
+
+    <p class="signature">Rất vui được gặp bạn!</p>
+
+  </div>
+
+  <div class="photo-card">
+    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=900&auto=format&fit=crop">
+
+    <img
+      class="polaroid"
+      src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=300&auto=format&fit=crop">
+  </div>
+</section>
+
+
+
+    <section id="about" class="about section">
+      <div>
+        <span class="label">ABOUT ME 🌿</span>
+       
+<h2 data-vi="Một chút về tui"
+    data-en="A little about me">
+    Một chút về tui
+</h2>
+      <p
+data-vi="Tui thích những điều nhẹ nhàng: mùi cafe, trời sau cơn mưa,
+những góc nhỏ yên tĩnh và cảm giác được khám phá điều mới."
+data-en="I love gentle things: the smell of coffee, the sky after rain,
+quiet little corners and the feeling of discovering something new.">
+
+Tui thích những điều nhẹ nhàng: mùi cafe, trời sau cơn mưa,
+những góc nhỏ yên tĩnh và cảm giác được khám phá điều mới.
+</p>
+
+        <p class="signature">Rất vui được gặp bạn!</p>
+      </div>
+
+      <div class="photo-card">
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=900&auto=format&fit=crop" alt="coffee">
+        <img class="polaroid" src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=300&auto=format&fit=crop" alt="mountain">
+      </div>
+    </section>
+
+    <section class="traits">
+      <span>I AM THE TYPE OF PERSON...</span>
+
+      <div class="trait">🌿 thích<br>yên tĩnh</div>
+      <div class="trait">☁ hay suy nghĩ<br>nhiều</div>
+      <div class="trait">💻 tò mò<br>công nghệ</div>
+      <div class="trait">🌼 thích những thứ<br>dễ thương</div>
+      <div class="trait">♫ có tâm hồn<br>mộng mơ</div>
+    </section>
+
+    <section id="journey" class="journey section">
+      <div>
+        <span class="label">JOURNEY 🌿</span>
+        <h2>Hành trình của tui</h2>
+
+        <div class="timeline">
+          <div>
+            <b>2023</b>
+            <p>Bắt đầu học lập trình</p>
+          </div>
+
+          <div>
+            <b>2024</b>
+            <p>Làm website đầu tiên</p>
+          </div>
+
+          <div>
+            <b>2025</b>
+            <p>Theo đuổi hướng Tester & UI</p>
+          </div>
+        </div>
+      </div>
+
+      <img class="wide-img" src="https://images.unsplash.com/photo-1528164344705-47542687000d?w=900&auto=format&fit=crop" alt="train">
+    </section>
+
+    <section id="love" class="grid-section">
+      <div>
+        <span class="label">NHỮNG ĐIỀU TUI THÍCH 🌿</span>
+
+        <ul>
+          <li>☁ Trời xanh</li>
+          <li>🌿 Lá non</li>
+          <li>🌸 Hoa anh đào</li>
+          <li>💙 Cẩm tú cầu</li>
+          <li>☕ Cafe chill</li>
+          <li>🌧 Ngắm mưa</li>
+        </ul>
+      </div>
+
+      <div id="gallery">
+        <span class="label">NHỮNG NƠI TUI MUỐN ĐẾN 🌿</span>
+
+        <div class="cards">
+          <article>
+            <img src="https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?w=500&auto=format&fit=crop" alt="Japan">
+            <p>Nhật Bản<br><small>mùa hoa anh đào</small></p>
+          </article>
+
+          <article>
+            <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=500&auto=format&fit=crop" alt="Korea">
+            <p>Hàn Quốc<br><small>mùa thu</small></p>
+          </article>
+
+          <article>
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500&auto=format&fit=crop" alt="Switzerland">
+            <p>Thụy Sĩ</p>
+          </article>
+        </div>
+      </div>
+
+      <div>
+        <span class="label">GÓC GIẢI TRÍ 🌿</span>
+
+        <p>♫ Lofi • Indie • Piano chill</p>
+        <p>🎬 Fantasy • Anime<br>Healing movie</p>
+      </div>
+    </section>
+
+    <section id="dreams" class="banner">
+      <div class="note">
+        Take it slow,<br>
+        but never stop. ♡
+      </div>
+    </section>
+
+    <section class="future">
+      <span class="label">ĐIỀU TUI MUỐN TRONG TƯƠNG LAI 🌿</span>
+
+      <div class="future-grid">
+        <p>✈<br>Đi du lịch nhiều nơi<br>khám phá thế giới</p>
+        <p>💻<br>Làm điều mình thích<br>và không ngừng học hỏi</p>
+        <p>🌱<br>Có một cuộc sống<br>bình yên</p>
+        <p>♡<br>Tạo ra những thứ<br>đẹp đẽ trên Internet</p>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div>
+        <span class="label">LET'S CONNECT 🌿</span>
+        <h2>Connect với tui nhé!</h2>
+      </div>
+
+      <div>
+        <a class="btn" href="#">Facebook</a>
+        <a class="btn ghost" href="#">GitHub</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
